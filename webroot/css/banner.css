@@ -1,0 +1,99 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+#main .outer {
+	margin:0 auto;
+	width: 750px;
+	padding: 0 0 70px 0;
+}
+#main .navi{
+	height: 45px;
+}
+#main .navi li{
+	float: right;
+}
+#main .navi li.right{
+	border-left: 1px solid #bdbdbd;
+}
+#main .navi li a{
+	display: block;
+	font-size: 14px;
+	padding: 5px 20px;
+	color: #444422;
+}
+#main .navi li a{
+	text-decoration:none;
+}
+
+#main .inner {
+	clear:both;
+	padding: 40px 40px 35px 40px;
+
+	background:#FFF;
+/*	border-radius: 5px;*/
+	box-shadow: 0 0 10px 10px #ECECEC;
+	behavior: url(/PIE.htc);
+}
+
+#main div.sp_s {
+	clear:both;
+	height: 30px;
+}
+#main div.sp_l {
+	clear:both;
+	height: 60px;
+}
+img.h2gif {
+	float: left;
+}
+img.title {
+	float: right;
+}
+span.red {
+	color: #C90800;
+}
+/*-----------------------------------------------
+ __intro
+-----------------------------------------------*/
+div.intro a {
+	color: #086DCB;
+	text-decoration: underline;
+}
+div.btitle {
+	margin: 40px 0 20px 0;
+	border-bottom: 1px solid #777;
+}
+div.btitle h3{
+	font-size: 18px;
+	color: #777;
+}
+
+div.post {
+	padding: 40px 0 0 0;
+}
+div.post p.size {
+	font-size: 14px;
+}
+div.post p.img {
+	margin: 5px 0 0 0;
+}
+div.post p.textbox {
+	margin: 12px 0 0 0;
+}
+div.post p.textbox textarea.source {
+	font-size: 13px;
+	color: #555;
+}
+
+p.toplink {
+	clear:both;
+	text-align: right;
+}
+p.toplink a{
+	padding: 0 0 0 15px;
+	color: #086DCB;
+	background:url("../img/arw.gif") 0 2px no-repeat;
+}
+

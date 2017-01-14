@@ -1,0 +1,118 @@
+<?php
+	$html->css(array('private_default', 'accounts_index', 'confirm') , null, array('inline'=>false));
+	$html->script(array('jquery/jquery-1.4.2.min', 'jquery/plugin/jquery.corner', 'frontend/accounts'), array('inline'=>false));
+
+	AppController::set('title_for_layout', 'ACURS(エクルス)：アカウント');
+?>
+<body id="m4">
+<div id="header_block">
+<?php echo $this->element('header_block/header_private', array('breadcrumbs'=>'アカウント')); ?>
+</div>
+<div id="contents_block">
+	<div id="outline">
+		<div id="left_menu">
+<?php echo $this->element('contents_block/left_menu'); ?>
+		</div><!-- div#left_menu -->
+		<div id="right_contents">
+			<p class="contents_title">アカウント</p>
+			<div id="status_left">
+				<div class="block_header">
+					<p>ご契約状況</p>
+				</div>
+				<div id="status_contents">
+<?php
+	if ( empty( $view['now'] ) ):
+?>
+					<p><span class="stop">未契約のため、サービスを停止しております</span></p>
+<?php
+	else:
+		// 契約プラン表示
+		if ( 'Standard Plan' === $view['now']['Plan']['plan_name'] ):
+?>
+					<p><span class="standard_plan">Standard Plan</span></p>
+<?php
+		elseif ( 'Light Plan' === $view['now']['Plan']['plan_name'] ):
+?>
+					<p><span class="light_plan">Light Plan</span></p>
+<?php
+		endif;
+?>
+<?php
+		// プラン切替判定
+		if ( !empty( $view['next'] ) && $view['now']['Plan']['plan_uid'] !== $view['next'][0]['Plan']['plan_uid'] ):
+			if( 'Standard Plan' === $view['next']['Plan']['plan_name'] ):
+?>
+					<p class="update_caption">次の更新日より<span class="standard_plan">Standard Plan</span>に切り替わります。</p>
+<?php
+			endif;
+		endif;
+?>
+<?php
+		if ( !empty( $view['next']) ):
+			if ( !empty( $view['next'][1]) ):
+				if ( $view['next'][1]['deleted'] === 1 ):
+?>
+					<p>残り　：　<span class="st_num"><?php echo $view['now']['License']['remaining']; ?></span>日（ <?php echo date( 'Y年m月d日', strtotime($view['now']['License']['end_date'])); ?>に解約します ）</p>
+<?php
+				else:
+?>
+					<p>残り　：　<span class="st_num"><?php echo $view['now']['License']['remaining']; ?></span>日（ <?php echo date( 'Y年m月d日', strtotime($view['now']['License']['end_date']) + 86400 ); ?></>に<?php echo $view['next']['Plan']['fixed_term']; ?>日間の自動更新を行ないます ）</p>
+<?php
+				endif;
+			endif;
+		else:
+?>
+					<p>残り　：　<span class="st_num"><?php echo $view['now']['License']['remaining']; ?></span>日（ <?php echo date( 'Y年m月d日', strtotime($view['now']['License']['end_date'])); ?>に解約します ）</p>
+<?php
+		endif;
+?>
+					<p>同時監視作品数　：　<span class="st_num"><?php echo $view['now']['License']['licenses_works']; ?></span></p>
+<?php
+		if ( !empty( $view['next'] ) && $view['now']['License']['licenses_works'] !== $view['next']['License']['licenses_works'] ):
+?>
+					<p class="update_caption">次の更新日より同時監視作品数は<span class="st_num"><?php echo $view['next']['License']['licenses_works']; ?></span>となります</p>
+<?php
+		endif;
+?>
+					<p>次回更新時のご請求額　：　￥<span class="st_num"><?php echo number_format( $view['next']['Payment']['payment_price'] ); ?></span></p>
+<?php
+	endif;
+?>
+				</div><!-- div#status_contents -->
+				<div id="ad_banner_block">
+				</div>
+			</div>
+			<div id="linkmenu_right">
+				<p class="first"><a class="corner profil" href="/users/edit/">プロフィールを変更</a></p>
+<?php
+	if ( !empty( $view['now'] ) && !empty( $view['next'] ) ):
+?>
+				<p><a class="corner" href="/accounts/cancel/?pid=<?php echo $view['now']['License']['payment_id'] ?>">自動更新しない（解約）</a></span></p>
+<?php
+	endif;
+	if ( 'Light Plan' === $view['now']['Plan']['plan_name'] && empty( $view['next'] ) ):
+?>
+				<p><a class="corner" href="/accounts/change/">Standard Planに変更</a></p>
+<?php
+	endif;
+	if ( 'Standard Plan' === $view['now']['Plan']['plan_name'] && empty( $view['next'] ) ):
+?>
+				<p><a class="corner" href="/accounts/change/">同時監視作品数を変更</a></p>
+<?php
+	endif;
+	if ( empty( $view['now'] ) || empty( $view['next'] ) ):
+?>
+				<p><a class="corner" href="/accounts/resume/">再開する</a></p>
+<?php
+	endif;
+?>
+			</div>
+			<div class="dummy_block"></div>
+		</div><!-- right_contents -->
+		<div class="dummy_block"></div>
+	</div><!-- div#outline -->
+</div>
+<div id="footer_block">
+<?php echo $this->element('footer_block/footer'); ?>
+</div>
+</body>

@@ -1,0 +1,79 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+#main .inner h2 {
+	margin-bottom:10px;
+	font-size: 24px;
+}
+
+#main .inner .space {
+	height: 50px;
+}
+
+/*-----------------------------------------------
+ __message_block
+-----------------------------------------------*/
+div.message {
+	font-size: 13px;
+}
+div.message div{
+	border-bottom: 1px solid #ddd;
+	/*	padding: 3px 10px;*/
+}
+div.message div.first{
+	border-top: 1px solid #ddd;
+}
+div.message p{
+	padding: 3px 5px;
+}
+div.message p span.detail{
+	padding: 0 0 0 12px;
+	color:#2C78BA;
+	cursor:pointer;
+}
+div.message p span.date{
+	float: right;
+}
+div.message p.title {
+	background-color: #fff;
+}
+div.message p.body {
+	clear:both;
+	background-color: #f5f5f5;
+	padding: 15px 17px 15px 17px;
+	color: #797979;
+}
+div.message p.body a{
+	color: #2C78BA;
+}
+
+
+
+/*-----------------------------------------------
+ __status_block
+-----------------------------------------------*/
+div.status {
+	margin: 50px 0 0 0;
+}
+div.status table{
+	border-spacing: 0;
+	width: 100%;
+}
+div.status td {
+	border-left: 1px solid #acacac;
+	width: 20%;
+	padding: 15px 0;
+	text-align: center;
+	font-size: 14px;
+}
+div.status td.left { border-left: none; }
+div.status td div {
+	padding: 7px 0 0 0;
+	font-weight: bold;
+	color: #953735;
+}
+
+
+

@@ -1,0 +1,97 @@
+@charset"utf-8";
+
+/*----------------------------------------
+ contents_block
+----------------------------------------*/
+div#contents_block{
+}
+/*----------------------------------------
+ link_block
+----------------------------------------*/
+div.link_block{
+	margin: 0 0 30px 0;
+	padding: 0 0 0 70px;
+}
+div.link_block table{
+	border-collapse: collapse;
+}
+div.link_block td{
+	border:1px solid #6b6b6b;
+	background-color: #e0e0e0;
+/*	padding: 5px 0;*/
+	width: 120px;
+	height: 28px;
+	text-align: center;
+}
+div.link_block td.target{
+	background-color: #4F81BD;
+}
+div.link_block td a{
+	display:block;
+	font-size: 15px;
+	font-weight: bold;
+	color: #818181;
+}
+div.link_block td.target a{
+	font-size: 15px;
+	font-weight: bold;
+	color:#fff;
+}
+/*----------------------------------------
+ table_block
+----------------------------------------*/
+div.table_block{
+	font-size: 14px;
+	margin: 0 0 0 70px;
+}
+div.table_block table{
+	border-collapse: collapse;
+}
+div.table_block th.area{
+	width:70px;
+}
+div.table_block th.gc{
+	width:350px;
+}
+div.table_block th.gora{
+	width:100px;
+}
+div.table_block th.sogo{
+	width:140px;
+}
+div.table_block td{
+	text-align: left;
+	border:2px solid #fff;
+	padding: 2px 0 2px 10px;
+}
+div.table_block tr.odd{
+	background-color: #F2F2F2;
+}
+div.table_block tr.even{
+	background-color: #DCE6F2;
+}
+div.table_block input.sogo_text{
+	width:110px;
+}
+/*----------------------------------------
+ submit_btn_block
+----------------------------------------*/
+div.submit_btn_block{
+	text-align: center;
+	margin: 25px 0;
+}
+div.submit_btn_block input.submit{
+/*	width: 150px; */
+	padding: 7px 20px;
+	border: none;
+	line-height: 1;
+	outline: none;
+	background: none;
+	background-color: #4F81BD;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+div.submit_btn_block input.submit:hover{
+	background-color: #78A4D2;
+}

@@ -1,0 +1,30 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+
+#main .inner p.form{
+	margin: 0 0 20px 0;
+	padding: 0 0 0 3px;
+}
+#main .inner h2{
+	color: #7f7f7f;
+	font-size: 18px;
+}
+
+
+#main .inner p{
+	clear:both;
+	font-size: 13px;
+	margin: 7px 0 40px 0;
+	padding: 25px 20px;
+	border: 1px solid #cdcdcd;
+}
+#main .inner a{
+	display:block;
+	margin: 3px 0 0 0;
+	padding: 0 0 0 15px;
+	color: #086DCB;
+	background:url("../img/arw.gif") 0 6px no-repeat;
+}

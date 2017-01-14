@@ -1,0 +1,154 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+
+/*
+#main .inner p.form{
+	margin: 0 0 12px 0;
+	padding: 0 0 0 3px;
+}
+#main .inner p{
+	clear:both;
+	height: 28px;
+}
+#main .inner label{
+	font-size: 13px;
+	float: left;
+	padding: 4px 0 0 0;
+	width: 60px;
+}
+#main .inner input.textbox{
+	float: left;
+	margin: 0 0 0 10px;
+	padding: 5px 3px;
+	width: 500px;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	border: solid 1px #B1B1B1;
+}
+
+#main .inner div.submit{
+	float: left;
+	margin: 20px 0 0 0;
+	text-indent: -9999px;
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/regist.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+}
+
+#main .inner div.message{
+	float: left;
+	padding: 43px 0 0 15px;
+	font-size: 22px;
+	color: #af3f25;
+	font-weight: bold;
+}
+*/
+input.off{color:#9f9f9f} /*プレースホルダー*/
+
+#main .inner p.info {
+	font-size: 13px;
+	margin: 0 0 30px 0;
+}
+#main .inner p.info a{
+	color: #086DCB;
+}
+#main .inner div.space{
+	clear:both;
+	height: 40px;
+}
+#main .inner div.notice{
+	clear:both;
+	font-size: 13px;
+	color: #777;
+}
+
+
+
+#main .inner div.word_block {
+	background:#f6f5f5;
+	border-radius: 3px;
+	box-shadow: 0px 1px 7px 1px #e0e0e0;
+	behavior: url(/PIE.htc);
+	padding: 20px 15px;
+	font-size: 13px;
+	margin: 0 0 30px 0;
+	width: 620px;
+}
+#main .inner div.word_block div.left{
+	float: left;
+	width: 90px;
+	padding: 0 0 0 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: #999;
+}
+#main .inner div.word_block div.right{
+	float: left;
+}
+#main .inner div.word_block div.right input.wordbox {
+	padding: 4px 3px;
+	width: 500px;
+	border: none;
+	outline: none;
+	font-size: 13px;
+	border: solid 1px #B1B1B1;
+}
+#main .inner div.word_block div.right div.request {
+	border: 1px solid #acacac;
+	margin: 15px 0 0 0;
+	padding: 7px 10px;
+}
+#main .inner div.word_block div.right p.rqinfo {
+	margin: 3px 0 8px 0;
+}
+#main .inner div.word_block div.right p.rq {
+	clear:both;
+	height: 26px;
+}
+#main .inner div.word_block div.right label {
+	float:left;
+	width: 120px;
+	padding: 2px 0 0 10px;
+}
+#main .inner div.word_block div.right input.reqbox {
+	float:left;
+	width: 350px;
+	padding: 2px 2px;
+	border: none;
+	outline: none;
+	font-size: 13px;
+	border: solid 1px #B1B1B1;
+}
+
+#main .inner div.word_block div.sp_wb{
+	clear:both;
+	height: 1px;
+}
+/*-----------------------------------------------
+ __#submit_block
+-----------------------------------------------*/
+div.submit{
+	float: left;
+	margin: 20px 0 0 0;
+	text-indent: -9999px;
+	width: 80px;
+	height: 80px;
+	background-image: url(/img/regist.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+}
+div.message{
+	float: left;
+	padding: 43px 0 0 15px;
+	font-size: 22px;
+	color: #af3f25;
+	font-weight: bold;
+

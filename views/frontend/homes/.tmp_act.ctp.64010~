@@ -1,0 +1,20 @@
+<?php
+	$html->css(array('private_default', 'homes_index', 'jquery.confirm') , null, array('inline'=>false));
+	$html->script(array('jquery/jquery-1.4.2.min', 'jquery/plugin/jquery.corner', 'jquery/plugin/jquery.confirm', 'frontend/homes'), array('inline'=>false));
+
+	AppController::set('title_for_layout', 'ACURS(エクルス)：マイレポート');
+?>
+<body id="m1">
+<div id="header_block">
+<?php echo $this->element('header_block/header_private', array('breadcrumbs'=>'マイレポート')); ?>
+</div>
+<div id="contents_block">
+
+
+
+
+</div>
+<div id="footer_block">
+<?php echo $this->element('footer_block/footer'); ?>
+</div>
+</body>

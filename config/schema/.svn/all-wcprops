@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/order-bid/!svn/ver/105/trunk/apps/acurs/config/schema
+END
+db_acl.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/order-bid/!svn/ver/105/trunk/apps/acurs/config/schema/db_acl.php
+END
+sessions.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/order-bid/!svn/ver/105/trunk/apps/acurs/config/schema/sessions.php
+END
+i18n.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/order-bid/!svn/ver/105/trunk/apps/acurs/config/schema/i18n.php
+END

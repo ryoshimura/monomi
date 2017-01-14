@@ -1,0 +1,154 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+#main .outer {
+	margin:0 auto;
+	width: 850px;
+	padding: 0 0 70px 0;
+}
+#main .navi{
+	height: 45px;
+}
+#main .navi li{
+	float: right;
+}
+#main .navi li.right{
+	border-left: 1px solid #bdbdbd;
+}
+#main .navi li a{
+	display: block;
+	font-size: 14px;
+	padding: 5px 20px;
+	color: #444422;
+}
+#main .navi li a{
+	text-decoration:none;
+}
+
+#main .inner {
+	clear:both;
+	padding: 40px 40px 35px 40px;
+
+	background:#FFF;
+/*	border-radius: 5px;*/
+	box-shadow: 0 0 10px 10px #ECECEC;
+	behavior: url(/PIE.htc);
+}
+
+#main .inner p.intro{
+	padding: 30px 0 20px 0;
+}
+#main div.sp_s {
+	clear:both;
+	height: 20px;
+}
+div.caution {
+	margin: 0 0 30px 0;
+	padding: 12px 20px;
+	border: 1px solid #953735;
+	color: #953735;
+}
+
+/*-----------------------------------------------
+ __div.left
+-----------------------------------------------*/
+#main .inner div.left{
+	float: left;
+	width: 250px;
+	padding: 10px 10px 10px 0;
+}
+#main .inner div.left p.caption {
+	font-size: 17px;
+	color: #086DCB;
+	font-weight: bold;
+}
+
+
+/*-----------------------------------------------
+ __div.right
+-----------------------------------------------*/
+#main .inner div.right{
+	float: left;
+	border-left: 1px solid #bdbdbd;
+	padding: 10px 0 10px 40px;
+}
+#main .inner div.right p{
+	clear:both;
+}
+#main .inner div.right p.text label{
+	float: left;
+	width: 125px;
+	padding: 8px 0 0 0;
+}
+#main .inner div.right p.text label.pass{
+	padding: 2px 0 0 0;
+	line-height: 14px;
+}
+#main .inner div.right p.text input.text{
+	float: left;
+	padding: 6px 2px;
+	width: 285px;
+}
+#main .inner p.btn{
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+#main .inner input.submit{
+/*	float: left;*/
+	text-indent: -9999px;
+	border: 0px;
+	width: 150px;
+	height: 36px;
+	background-image: url(../img/pregist_btn.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+}
+#main .inner input.submit:hover{
+	background:url("../img/pregist_btn.gif") 0 -36px no-repeat;
+}
+#main .inner div.right div.vali {
+	clear:both;
+	height: 22px;
+	color: #953735;
+	padding: 0 0 0 128px;
+}
+#main .inner div.right label span{
+	color: #953735;
+}
+#main .inner div.right p.rule{
+	clear:both;
+}
+#main .inner div.right p.rule input{
+	float:left;
+	margin: 3px 0 0 125px;
+}
+#main .inner div.right p.rule label.rule{
+	float:left;
+	margin: 0 0 0 10px;
+}
+#main .inner div.right p.rule label.rule a{
+	color: #086DCB;
+}
+
+/*-----------------------------------------------
+ __pthanks
+-----------------------------------------------*/
+p.thx_intro {
+	padding: 50px 0 40px 0;
+}
+
+p.thx_intro a{
+	display:block;
+	margin: 3px 0 0 0;
+	padding: 0 0 0 15px;
+	color: #086DCB;
+	background:url("../img/arw.gif") 0 4px no-repeat;
+}
+
+p.thx_intro span {
+	color: #953735;
+}
+

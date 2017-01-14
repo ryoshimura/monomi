@@ -1,0 +1,22 @@
+<?php echo'<?xml version="1.0" encoding="windows-31j" ?>' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="description" content="<?php /* echo $meta['description']; */ ?>" />
+<meta name="keywords" content="<?php /* echo $meta['keywords']; */ ?>" />
+<?php
+//	echo $html->css(array('homes_index') , null, array('inline'=>true));
+	echo $html->script(array('jquery/jquery-1.4.2.min', 'jquery/plugin/jquery.corner', 'frontend/homes'), array('inline'=>true));
+	echo $html->meta('icon', '/img/favicon.ico');
+?>
+<title><?php echo $meta['title']; ?></title>
+</head>
+<body>
+
+
+
+</body>
+</html>

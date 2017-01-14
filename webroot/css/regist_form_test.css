@@ -1,0 +1,434 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+#main a{
+	color: #086DCB;
+}
+
+#main .outer {
+	margin:0 auto;
+	width: 850px;
+	padding: 0 0 70px 0;
+}
+#main .navi{
+	height: 45px;
+}
+#main .navi li{
+	float: right;
+}
+#main .navi li.right{
+	border-left: 1px solid #bdbdbd;
+}
+#main .navi li a{
+	display: block;
+	font-size: 14px;
+	padding: 5px 20px;
+	color: #444422;
+}
+#main .navi li a{
+	text-decoration:none;
+}
+
+#main .inner {
+	clear:both;
+	padding: 40px 40px 35px 40px;
+
+	background:#FFF;
+/*	border-radius: 5px;*/
+	box-shadow: 0 0 10px 10px #ECECEC;
+	behavior: url(/PIE.htc);
+}
+
+/*-----------------------------------------------
+ __div.bread
+-----------------------------------------------*/
+#main .inner div.bread {
+	margin: 10px 0 50px 0;
+}
+#main .inner div.bread img {
+	margin: 0 15px 0 0;
+}
+/*-----------------------------------------------
+ __p.intro
+-----------------------------------------------*/
+#main .inner p.intro{
+	padding: 20px 0 20px 0;
+}
+div.caution {
+	margin: 0 0 30px 0;
+	padding: 12px 20px;
+	border: 1px solid #953735;
+	color: #953735;
+}
+#main div.sp_s {
+	clear:both;
+	height: 20px;
+}
+#main .inner p.intro span.red{
+	color: #953735;
+}
+#main .inner p.intro span.red a{
+	color: #086DCB;
+}
+/*-----------------------------------------------
+ __div.select_payment
+-----------------------------------------------*/
+div.select_payment {
+	height: 290px;
+	margin: 50px 0 0 0;
+}
+div.select_payment h3{
+	margin: 0 0 10px 0;
+}
+div.select_payment div.payment_sl {
+	height: 200px;
+	background:#FFF;
+	border-radius: 7px;		/* CSS3ëêàƒ */
+	box-shadow: 0 2px 0 0 #ECECEC;
+	behavior: url(/PIE.htc);
+	cursor: pointer;
+	border: 1px solid #bdbdbd;
+}
+div.select_payment div.payment_sl:hover {
+	border: 2px solid #FF9900;
+}
+div.select_payment div.border_on {
+	border: 2px solid #FF9900;
+}
+div.select_payment div.border_off {
+	border: 1px solid #bdbdbd;
+}
+div.select_payment div.paypal {
+	float: left;
+	width: 350px;
+}
+div.select_payment div.epsilon {
+	float: right;
+	width: 380px;
+}
+div.select_payment div.payment_title {
+	border-bottom: 1px solid #bdbdbd;
+	padding: 10px 0 17px 15px;
+/*	margin: 0 7px;*/
+}
+div.logomark_p {
+	padding: 10px 0 0 0;
+}
+div.logomark_o {
+	padding: 35px 0 0 7px;
+}
+div.select_payment p.caption {
+	padding: 0 16px;
+}
+input.hiddenRadio {
+	display:none;
+}
+
+div#sign_block{
+	clear:both;
+}
+h3.bc {
+}
+
+/*-----------------------------------------------
+ __div.left
+-----------------------------------------------*/
+#main .inner div.left{
+	float: left;
+	width: 210px;
+	padding: 10px 25px 10px 0;
+}
+#main .inner div.left p.caption {
+}
+#main .inner div.left table {
+	margin: 10px 0 0 25px;
+}
+#main .inner div.left img.ssl {
+	margin: 10px 0 0 55px;
+}
+#main .inner div.left img.epsilon_logo {
+	margin: 10px 0 0 38px;
+}
+
+
+/*-----------------------------------------------
+ __div.right
+-----------------------------------------------*/
+#main .inner div.right{
+	float: left;
+	border-left: 1px solid #bdbdbd;
+	padding: 10px 0 10px 30px;
+	width: 480px;
+}
+#main .inner div.right div.plan_msg {
+	margin: 0 0 20px 0;
+}
+
+#main .inner div.right div.plan {
+	background:#eaf0f7;
+	margin: 0 0 20px 0;
+	padding: 10px 0 10px 10px;
+	font-size: 15px;
+	color: #1f497d;
+	font-weight: bold;
+}
+#main .inner div.right div.input {
+	clear:both;
+	height: 30px;
+	padding: 2px;
+	margin: 7px 0 0 0;
+}
+#main .inner div.right div.input label{
+	float: left;
+	width: 130px;
+	padding: 3px 0 0 0;
+}
+#main .inner div.right div.input select{
+	float: left;
+	width: 299px;
+/*	height: 30px;*/
+	padding: 3px 0 3px 2px;
+}
+#main .inner div.right div.input label.pass {
+	padding: 2px 0 0 0;
+	line-height: 14px;
+}
+#main .inner div.right div.input input.text {
+	float: left;
+	padding: 3px 2px;
+	width: 291px;
+}
+
+#main .inner div.btn{
+	padding: 20px 0 0 0;
+}
+
+#main .inner div.btn div.sum {
+	float: left;
+	margin: 0 30px 0 0;
+	padding: 9px 20px 5px 10px;
+	border-bottom: 1px solid #acacac;
+}
+span#total_price {
+	font-size: 14px;
+}
+#main .inner input.submit{
+	float: right;
+	margin: 0 50px 0 0;
+	text-indent: -9999px;
+	border: 0px;
+	width: 150px;
+	height: 36px;
+	background-image: url(../img/rg_next.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+}
+#main .inner input.submit:hover{
+	background:url("../img/rg_next.gif") 0 -36px no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+#main .inner div.right div.vali {
+	clear:both;
+	height: 22px;
+	color: #953735;
+	padding: 0 0 0 128px;
+}
+#main .inner div.right label span{
+	color: #953735;
+}
+#main .inner div.right div.rule{
+	clear:both;
+	height: 30px;
+	margin: 5px 0 0 0;
+}
+#main .inner div.right div.rule input{
+	float:left;
+	margin: 3px 0 0 132px;
+}
+#main .inner div.right div.rule label.rule{
+	float:left;
+	margin: 0 0 0 5px;
+}
+#main .inner div.right div.rule label.rule a{
+	color: #086DCB;
+}
+
+div.error-message {
+	margin: 0 0 0 130px;
+	color: #953735;
+}
+div.error-message_cmp {
+	margin: 0 0 0 130px;
+	color: #953735;
+}
+#main .inner input.submit_send_off {
+	width: 150px;
+	height: 36px;
+	line-height:0;
+	border: none;
+	outline: none;
+	background: none;
+	background-image: url(../img/buy_off.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-indent: -9999px;
+}
+
+div.processed {
+/*	width: 150px;
+	height: 36px;
+*/
+	font-weight: bold;
+	font-size: 16px;
+	background: #efefef;
+	padding: 7px 0;
+	text-align: center;
+}
+
+/*-----------------------------------------------
+ __confirm
+-----------------------------------------------*/
+#main .inner div.confbody {
+	padding: 30px 0 0 0;
+	border-top: 1px solid #acacac;
+}
+#main .inner div.confbody ul.conf {
+	border-bottom: 1px solid #acacac;
+	padding: 0 0 20px 0;
+}
+#main .inner div.confbody ul.conf li {
+	clear:both;
+	height: 30px;
+}
+#main .inner div.confbody ul.conf li div.label {
+	float:left;
+	width: 120px;
+}
+#main .inner div.confbody ul.conf li div.item1 {
+	float:left;
+}
+#main .inner div.confbody ul.conf li div.item2 {
+	float:left;
+	margin: 0 0 0 30px;
+}
+
+
+#main .inner div.confbody ul.confirm_btn {
+/*	border-top: 1px solid #acacac;*/
+	padding: 30px 0 0 0;
+}
+#main .inner div.confbody ul.confirm_btn {
+	clear:both;
+}
+ul.confirm_btn {
+}
+ul.confirm_btn li{
+	float:left;
+}
+ul.confirm_btn input.submit_send {
+	width: 150px;
+	height: 36px;
+	line-height:0;
+	border: none;
+	outline: none;
+	background: none;
+	background-image: url(../img/rg_buy.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+ul.confirm_btn input.submit_send:hover {
+	background:url("../img/rg_buy.gif") 0 -36px no-repeat;
+}
+
+ul.confirm_btn a.buy_btn {
+	display:block;
+	width: 150px;
+	height: 36px;
+	line-height:0;
+	border: none;
+	outline: none;
+	background: none;
+	background-image: url(../img/rg_buy.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-indent: -9999px;
+}
+ul.confirm_btn a.buy_btn:hover {
+	background:url("../img/rg_buy.gif") 0 -36px no-repeat;
+}
+
+ul.confirm_btn a.back {
+	display:block;
+	margin: 0 30px 0 0;
+	text-indent: -9999px;
+	width: 80px;
+	height: 36px;
+	background-image: url(../img/rg_back.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+#main .inner div.confbody ul.confirm_btn a.back:hover{
+	background:url("../img/rg_back.gif") 0 -36px no-repeat;
+}
+p.ssl {
+	margin: 100px 0 0 0;
+	text-align: center;
+}
+ul.confirm_btn input.submit_send_off {
+	width: 150px;
+	height: 36px;
+	line-height:0;
+	border: none;
+	outline: none;
+	background: none;
+	background-image: url(../img/buy_off.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-indent: -9999px;
+
+}
+/*-----------------------------------------------
+ __thanks
+-----------------------------------------------*/
+p.intro_thx {
+	margin: 40px 0 0 0;
+}
+p.link_thx {
+	margin: 0 0 50px 0;
+}
+p.link_thx a {
+	display:block;
+	margin: 3px 0 0 0;
+	padding: 0 0 0 15px;
+	background:url("../img/arw.gif") 0 6px no-repeat;
+}
+/*-----------------------------------------------
+ __link_err
+-----------------------------------------------*/
+p.link_err {
+	margin: 0 0 0 0;
+}
+p.link_err a.err {
+	display:block;
+	padding: 0 0 0 15px;
+	background:url("../img/arw.gif") 0 6px no-repeat;
+}
+
+
+
+

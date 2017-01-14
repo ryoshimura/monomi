@@ -1,0 +1,85 @@
+@charset"utf-8";
+
+/*----------------------------------------
+ ページ全体のスタイル
+----------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+}
+body {
+	font-size: 12px;
+	font-family: "ＭＳ Ｐゴシック", "Osaka", "Trebuchet MS", Verdana, Arial, sans-serif;
+	color: #444444;
+	line-height:1.5;
+}
+img {
+	border: none;
+	vertical-align: bottom;
+}
+ul {
+	list-style: none;
+}
+/* safari hack */
+html:\66irst-child body {
+	font-size:10px;font-family:"Osaka" , "ＭＳ Ｐゴシック";
+}
+
+/*----------------------------------------
+ リンク：リンク文字赤
+----------------------------------------*/
+a:link {
+	color:#B3283C;
+	text-decoration:none;
+}
+a:visited {
+	color:#B3283C;
+	text-decoration:none;
+/*	background:transparent; */
+}
+a:hover {
+	color:#294E71;
+	text-decoration:underline;
+/*	background:transparent; */
+}
+/*----------------------------------------
+ 単体のfloat:clear;
+----------------------------------------*/
+.clear {
+	margin:0;
+	padding:0;
+	float: none;
+	clear:both;
+	border:0;
+}
+/*----------------------------------------
+ outline
+----------------------------------------*/
+div#outline {
+	margin: auto;
+	width: 800px;
+	background-image: url(../img/admin_back.gif);
+}
+div#inline {
+	margin: 0 4px;
+	border-bottom: 1px solid #E0E0E0;
+	border-left: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+}
+/*----------------------------------------
+ header_block
+----------------------------------------*/
+div#header_block {
+	padding: 20px 30px;
+}
+div.global_link{
+	text-align: right;
+}
+/*----------------------------------------
+ footer_block
+----------------------------------------*/
+div#footer_block {
+	clear: both;
+}

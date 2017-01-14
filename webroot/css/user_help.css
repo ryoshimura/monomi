@@ -1,0 +1,53 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+#main .inner h3 {
+/*	margin-bottom:10px;*/
+	font-size: 14px;
+	height: 27px;
+/*	width: 24px;*/
+	background:url("../img/help_h3_bar.png") 0 0 no-repeat;
+	padding: 2px 0 0 15px;
+}
+
+#main .inner .space {
+	height: 50px;
+}
+div.menu{
+	padding: 10px 0 20px 5px;
+
+}
+div.menu li{
+	clear:both;
+	height: 22px;
+}
+div.menu li div.num{
+	float:left;
+	width: 20px;
+}
+div.menu li a{
+	float:left;
+	margin: 0 0 0 10px;
+	color: #2C78BA;
+}
+div.content{
+	border: 1px solid #BFBFBF;
+	padding: 20px 30px 30px 30px;
+	margin: 30px 0 0 0;
+}
+div.content p{
+	padding: 7px 0 0 15px;
+	font-size: 12px;
+	line-height: 21px;
+}
+div.content p a{
+	color: #2C78BA;
+	font-weight:bold;
+}
+div.contents_footer{
+	text-align: right;
+	padding: 5px 0 0 0;
+}
+

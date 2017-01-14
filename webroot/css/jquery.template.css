@@ -1,0 +1,228 @@
+#templateOverlay{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+
+	background:url('ie.png');
+	background: -moz-linear-gradient(rgba(11,11,11,0.1), rgba(11,11,11,0.6)) repeat-x rgba(11,11,11,0.2);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(11,11,11,0.1)), to(rgba(11,11,11,0.6))) repeat-x rgba(11,11,11,0.2);
+	z-index:100000;
+}
+
+#templateBox{
+/*	background:url('../img/template/body_bg.jpg') repeat-x left bottom #e5e5e5;*/
+/*	background:url('../img/template/body_bg.jpg') repeat-x left bottom #e5e5e5;*/
+	background-color: #f3f3f3;
+	width:800px;
+	position:fixed;
+	left:50%;
+	top:50%;
+/*	margin:-130px 0 0 -230px;*/
+	margin: -300px 0 0 -400px;
+/*	border: 1px solid rgba(33, 33, 33, 0.6);*/
+	border: 2px solid #aaa;
+	font-size: 13px;
+
+	-moz-box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+	-webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+	box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+}
+
+#templateBox h1 {
+	font:18px/1 'Cuprum','Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	background:url('../img/template/header_bg.jpg') repeat-x left bottom #f5f5f5;
+/*	background-color: #FFF;*/
+	padding: 18px 25px;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
+	color:#666;
+}
+
+
+#templateBox h1{
+	letter-spacing:0.3px;
+	color:#888;
+}
+
+
+
+/*----------------------------------------
+ templateHeader
+----------------------------------------*/
+#templateHeader{
+	background-color: #e5e5e5;
+	height: 33px;
+	border-bottom: 1px solid #aaa;
+}
+#templateHeader h2 {
+	float: left;
+	width: 735px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	padding: 8px 0 0 25px;
+}
+#templateHeader img {
+	float: left;
+	border: 1px soiid #acacac;
+	cursor:pointer;
+}
+/*----------------------------------------
+ templateNotice
+----------------------------------------*/
+#templateNotice {
+	clear:both;
+	padding: 15px 25px 20px 25px;
+}
+#templateNotice span.red {
+	color: #953735;
+	font-weight: bold;
+}
+/*----------------------------------------
+ templateLeft
+----------------------------------------*/
+#templateLeft {
+	float: left;
+}
+
+#templateLeft ul {
+	padding: 0 0 0 25px;
+}
+#templateLeft li {
+	clear:both;
+	height: 31px;
+}
+#templateLeft li label {
+	float: left;
+	width: 72px;
+	padding: 4px 0 0 0;
+}
+#templateLeft li select {
+	width: 250px;
+	padding: 3px 2px 3px 4px;
+}
+
+#templateLeft li input.tb {
+	float: left;
+	width: 350px;
+	padding: 3px 4px;
+}
+#templateLeft li img {
+	float:left;
+	margin: 0 0 0 5px;
+}
+/*
+#templateDestination {
+	float: left;
+	padding: 3px 4px;
+	background-color: #dfdfdf;
+	border: 1px solid #7F9DB9;
+	width: 352px;
+}
+*/
+
+/*----------------------------------------
+ templateRight
+----------------------------------------*/
+#templateRight {
+	float: right;
+	padding: 0 25px 0 0;
+}
+#templateRight span.red {
+	color: #953735;
+}
+#templateRight #templateBtnP a,
+#templateRight #templateBtnSubP a {
+	color: #086DCB;
+	font-weight: bold;
+}
+
+
+#templateRight #templateSendMail {
+	display: block;
+	text-indent: -9999px;
+	width: 140px;
+	height: 60px;
+	background-image: url(/img/sendMail.gif);
+	background-repeat: no-repeat;
+	background-position: 0px -60px;
+	cursor: pointer;
+}
+#templateRight #templateSendMail:hover {
+	background-position: 0px 0px;
+}
+#templateRight p.templateProf {
+	text-align:center;
+	padding: 3px 0 0 0;
+}
+#templateBtnInfo {
+	padding: 2px 0 0 0;
+/*	display: table-cell;*/
+/*	vertical-align: bottom;*/
+}
+/*----------------------------------------
+ templateBody
+----------------------------------------*/
+#templateBody {
+	clear:both;
+	padding: 5px 25px 4px 25px;
+}
+#templateBody textarea {
+	padding: 3px;
+}
+#templateTextBody {
+	width: 740px;
+	height: 297px;
+	font-size: 13px;
+}
+/*----------------------------------------
+ templateFooter
+----------------------------------------*/
+#templateFooter {
+	clear:both;
+	padding: 0 25px;
+	height: 40px;
+}
+#templateFooter input {
+	float:left;
+	margin: 3px 0 0 0;
+}
+#templateFooter label {
+	float:left;
+	padding: 0 0 0 5px;
+}
+#templateFooter img{
+	float: right;
+}
+/*----------------------------------------
+ tempMsgBox
+----------------------------------------*/
+#tempMsgBoxOverlay{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background:url('ie.png');
+	background: -moz-linear-gradient(rgba(11,11,11,0.1), rgba(11,11,11,0.6)) repeat-x rgba(11,11,11,0.2);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(11,11,11,0.1)), to(rgba(11,11,11,0.6))) repeat-x rgba(11,11,11,0.2);
+	z-index:200000;
+}
+
+#tempMsgBox{
+	background-color: #f3f3f3;
+	width:200px;
+	height: 50px;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin: -300px 0 0 -400px;
+	border: 2px solid #aaa;
+	font-size: 13px;
+	-moz-box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+	-webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+	box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+}
+
+

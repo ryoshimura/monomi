@@ -1,0 +1,174 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+
+#main .inner p.form{
+	margin: 0 0 20px 0;
+	padding: 0 0 0 3px;
+}
+#main .inner h2{
+	color: #7f7f7f;
+}
+#main .inner hr {
+	margin: 7px 0;
+}
+
+/*-----------------------------------------------
+ __inner_agreement
+-----------------------------------------------*/
+.inner_agreement{
+}
+.inner_agreement p{
+	clear:both;
+}
+.inner_agreement ul{
+	clear:both;
+	padding: 15px 0;
+}
+.inner_agreement li{
+	float: left;
+}
+.inner_agreement li.label{
+	width: 100px;
+}
+.inner_agreement a.exten{
+	float: left;
+		margin: 30px 0 0 0;
+	display:block;
+	width: 80px;
+	height: 80px;
+	text-indent: -9999px;
+	background:url("../img/exten.gif") 0px 0px no-repeat;
+}
+.inner_agreement a.restart{
+	float: left;
+		margin: 30px 0 0 0;
+	display:block;
+	width: 80px;
+	height: 80px;
+	text-indent: -9999px;
+	background:url("../img/restart.gif") 0px 0px no-repeat;
+}
+.inner_agreement a.new_regist{
+	float: left;
+	margin: 30px 0 0 0;
+	display:block;
+	width: 80px;
+	height: 80px;
+	text-indent: -9999px;
+	background:url("../img/new_regist.gif") 0px 0px no-repeat;
+}
+.inner_agreement a.exten:hover{	background:url("../img/exten.gif") -80px 0px no-repeat;}
+.inner_agreement a.restart:hover{background:url("../img/restart.gif") -80px 0px no-repeat;}
+.inner_agreement a.new_regist:hover{background:url("../img/new_regist.gif") -80px 0px no-repeat;}
+
+div.btn_caption {
+	float: left;
+	margin: 62px 0 0 10px;
+	font-size: 12px;
+}
+
+
+.inner_agreement span.red{
+	color: #990000;
+}
+
+/*-----------------------------------------------
+ __inner_prof
+-----------------------------------------------*/
+.inner_prof{
+	clear:both;
+}
+.inner_prof p.cml {
+	margin: 10px 0 0 0;
+}
+.inner_prof div.form{
+	clear:both;
+	margin: 5px 0;
+	padding: 10px 0;
+}
+.inner_prof label{
+	width: 160px;
+	display:block;
+	padding: 3px 0 0 0;
+	float: left;
+}
+.inner_prof input.textbox{
+	float: left;
+	padding: 5px 2px;
+	width: 300px;
+	border: none;
+	outline: none;
+	font-size: 13px;
+	border: solid 1px #B1B1B1;
+}
+.inner_prof div.vmsg{
+	float: left;
+	color: #af3f25;
+	font-weight: bold;
+	margin: 4px 0 0 10px;
+}
+.inner_prof input.submit_btn{
+	clear:both;
+	float: left;
+	margin: 25px 0 0 0;
+	width: 80px;
+	height: 80px;
+	line-height:0;
+	border: none;
+	outline: none;
+	background: none;
+	background:url("../img/change.gif") 0px 0px no-repeat;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+.inner_prof input.submit_btn:hover{
+	background:url("../img/change.gif") -80px 0px no-repeat;
+}
+.inner_prof div.msg{
+	float: left;
+	margin: 48px 0 0 50px;
+	font-size: 22px;
+	color: #af3f25;
+	font-weight: bold;
+}
+div.space{
+	clear:both;
+	height: 80px;
+}
+
+
+/*-----------------------------------------------
+ __inner_campaign
+-----------------------------------------------*/
+.inner_campaign{
+	font-size: 13px;
+}
+.inner_campaign p.notice{
+	margin: 10px 0 0 0;
+}
+.inner_campaign p.notice a{
+	display:block;
+	margin: 3px 0 0 0;
+	padding: 0 0 0 15px;
+	color: #086DCB;
+	background:url("../img/arw.gif") 0 6px no-repeat;
+}
+.inner_campaign ul {
+	margin: 20px 0 0 0;
+}
+.inner_campaign li.label {
+	float: left;
+	padding: 10px 0 0 0;
+}
+.inner_campaign li.code {
+	float: left;
+	margin: 0 0 0 20px;
+	padding: 7px 15px;
+	border: 1px solid #acacac;
+	font-size: 15px;
+	font-weight: bold;
+}
+

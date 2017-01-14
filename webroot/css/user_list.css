@@ -1,0 +1,143 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+
+#main .inner p.form{
+	margin: 0 0 20px 0;
+	padding: 0 0 0 3px;
+}
+
+
+
+/*-----------------------------------------------
+ div.report
+-----------------------------------------------*/
+div.report {
+	margin: 0 0 50px 0;
+	font-size: 13px;
+}
+div.report .textbox {
+	width: 500px;
+	height: 40px;
+	padding: 2px;
+}
+div.report input.send_btn{
+	margin: 7px 0 0 431px;
+	width: 75px;
+	height: 25px;
+	line-height:0;
+	border: none;
+	outline: none;
+	background: none;
+	background-image: url(../img/report.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+div.report input.send_btn:hover{
+	background:url("../img/report.png") 0 -25px no-repeat;
+}
+
+
+
+
+
+/*-----------------------------------------------
+ div.list
+-----------------------------------------------*/
+div.list{
+}
+div.list p{
+	margin: 0 0 5px 0;
+}
+div.list table{
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin: 0 0 20px 0;
+}
+div.list table td{
+	border: 1px solid #acacac;
+	height: 50px;
+}
+div.list table td.item{
+	border-right: none;
+	width: 200px;
+	text-align: left;
+	padding: 0 0 0 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #acacac;
+}
+div.list table td.num{
+	border-left: none;
+	width: 70px;
+	padding: 0 10px 0 0;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: right;
+	color: #999;
+}
+
+
+
+
+
+
+/*-----------------------------------------------
+ __inner_header
+-----------------------------------------------*/
+#main .inner .inner_header{
+}
+#main .inner .inner_header a:hover{
+	text-decoration:none;
+}
+#main .inner .inner_header .tab{
+	float: left;
+	font-size: 18px;
+	margin: 0 30px 0 0;
+	padding: 0 4px;
+}
+#main .inner .inner_header .tab:hover{
+	border-bottom: 2px solid #4F81BD;
+}
+#main .inner .inner_header .crt{
+	border-bottom: 2px solid #4F81BD;
+}
+
+
+/*-----------------------------------------------
+ __inner_list
+-----------------------------------------------*/
+#main .inner .inner_list{
+	clear:both;
+	margin: 70px 0;
+	font-size: 13px;
+}
+#main .inner .inner_list a{
+	color: #2C78BA;
+}
+#main .inner .inner_list table{
+	border-spacing: 0;
+}
+#main .inner .inner_list td{
+	padding: 5px 7px 4px 7px;
+}
+#main .inner .inner_list td.even{
+	background-color: #F2F5F9;
+}
+#main .inner .inner_list .name{
+	width: 200px;
+}
+#main .inner .inner_list .url{
+	width: 350px;
+}
+#main .inner .inner_list .notice{
+	width: 105px;
+	color: #b51b37;
+}
+
+
+

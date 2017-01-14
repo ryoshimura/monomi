@@ -1,0 +1,107 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+#main .outer {
+	margin:0 auto;
+	width: 500px;
+	padding: 0 0 70px 0;
+}
+#main .navi{
+	height: 45px;
+}
+#main .navi li{
+	float: right;
+}
+#main .navi li.right{
+	border-left: 1px solid #bdbdbd;
+}
+#main .navi li a{
+	display: block;
+	font-size: 14px;
+	padding: 5px 20px;
+	color: #444422;
+}
+#main .navi li a{
+	text-decoration:none;
+}
+
+#main .inner {
+	clear:both;
+	padding: 40px 40px 30px 40px;
+
+	background:#FFF;
+/*	border-radius: 5px;*/
+	box-shadow: 0 0 10px 10px #ECECEC;
+	behavior: url(/PIE.htc);
+}
+
+#main .inner p.intro{
+	padding: 20px 0 40px 0;
+}
+#main div.sp_s {
+	clear:both;
+	height: 20px;
+}
+
+#main .inner div.logo{
+	text-align: center;
+	padding: 0 0 50px 0;
+}
+#main .inner p.text{
+	clear:both;
+	height: 45px;
+}
+
+#main .inner p.caption{
+	clear:both;
+	text-align: center;
+}
+
+#main .inner label{
+	float: left;
+	width: 103px;
+	padding: 7px 0 0 0;
+}
+#main .inner input.text{
+	float: left;
+	padding: 5px 2px;
+	width: 300px;
+}
+#main .inner p.btn{
+	clear:both;
+	text-align: center;
+	padding: 10px 0 0 0;
+	height: 100px;
+}
+#main .inner input.submit{
+/*	float: left;*/
+	text-indent: -9999px;
+	border: 0px;
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/login.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+}
+#main .inner input.submit:hover{ background:url("../img/login.png") 0 -80px no-repeat; }
+
+#main .inner p.caption{
+	clear:both;
+	text-align: center;
+}
+
+#main .inner div.vali {
+	clear:both;
+	text-align: center;
+	color: #953735;
+	height: 20px;
+}
+
+
+
+
+
+

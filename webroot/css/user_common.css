@@ -1,0 +1,235 @@
+@charset"utf-8";
+
+/*----------------------------------------
+
+----------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+}
+body {
+	font-size: 14px;
+	font-family: "ＭＳ Ｐゴシック", "Osaka", "Trebuchet MS", Verdana, Arial, sans-serif;
+	color: #444444;
+	line-height:1.5;
+	background-position: 0px 8px;
+	background-color: #F2F2F2;
+}
+img {
+	border: none;
+	vertical-align: bottom;
+}
+ul {
+	list-style: none;
+}
+/* safari hack */
+html:\66irst-child body {
+	font-size:10px;font-family:"Osaka" , "ＭＳ Ｐゴシック";
+}
+
+/*----------------------------------------
+ ?????N?F?????N??????
+----------------------------------------*/
+a:link {
+	color:#7F7F7F;
+	text-decoration:none;
+}
+a:visited {
+	color:#7F7F7F;
+	text-decoration:none;
+/*	background:transparent; */
+}
+a:hover {
+	color:#7F7F7F;
+	text-decoration:underline;
+/*	background:transparent; */
+}
+/*----------------------------------------
+ ?P???float:clear;
+----------------------------------------*/
+.clear {
+	margin:0;
+	padding:0;
+	float: none;
+	clear:both;
+	border:0;
+}
+/*----------------------------------------
+ header_block
+----------------------------------------*/
+#header_block {
+	width:100%;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	height:150px;
+}
+#header_block p{
+	text-align: right;
+/*	margin: 70px 0 0 0;*/
+	padding: 70px 40px 0 0;
+	font-size: 14px;
+}
+/*----------------------------------------
+ main_block
+----------------------------------------*/
+#main_block {
+	width:100%;
+	padding: 30px 0 0 0;
+}
+h1 {
+/*	padding: 7px 0 7px 40px;
+	border-bottom: 1px solid #acacac;
+*/
+}
+h2 {
+	color: #9FABB2;
+	font-size: 24px;
+}
+
+
+/*----------------------------------------
+ title
+----------------------------------------*/
+#title{
+	padding: 20px 0 0 0;
+}
+#title h1{
+	float: left;
+	margin: 0 0 0 210px;
+	color: #7f7f7f;
+}
+#title div.help{
+	float: right;
+	margin: 10px 40px 0 0;
+}
+#title div.help a{
+	width: 22px;
+	height: 22px;
+	display:block;
+	text-indent:-9999px;
+	background:url("../img/help.gif") no-repeat;
+}
+
+/*----------------------------------------
+ footer_block
+----------------------------------------*/
+#footer_block {
+	clear:both;
+	width:100%;
+	text-align: center;
+}
+
+/*-----------------------------------------------
+ __footer
+-----------------------------------------------*/
+
+#footer {
+	clear:both;
+	width:100%;
+	min-width:500px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background:#E5E5E5;
+}
+
+#footer ul {
+	margin:15px auto 10px;
+	text-align:center;
+}
+
+#footer ul li {
+	display:inline;
+	margin-right:5px;
+	padding-left:10px;
+	line-height:1.1;
+	border-left:1px solid white;
+}
+
+#footer ul li.utilityHome {
+	border-left:0;
+}
+
+#footer p#copyright {
+	text-align:center;
+}
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+#main {
+	float:left;
+	width:100%;
+}
+.inner {
+	min-width:350px;
+	margin:10px 20px 40px 200px;
+	padding:30px 25px 40px 25px;
+	background:#FFF;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px #ECECEC;
+	behavior: url(/PIE.htc);
+}
+
+/*-----------------------------------------------
+ __sub
+-----------------------------------------------*/
+#sub {
+	float:left;
+	width:185px;
+	margin-left:-100%;
+	margin-bottom:15px;
+	padding:10px 0 0 30px;
+}
+
+#sub li{
+	width:150px;
+	margin: 3px 0;
+	padding: 0 0 0 10px;
+	border-left: 2px solid #F2F2F2;
+}
+#sub li.crt{
+	border-left: 2px solid #4F81BD;
+}
+#sub li a{
+	display: block;
+	padding: 7px 0;
+}
+#sub li:hover{
+	border-left: 2px solid #4F81BD;
+}
+
+
+/*-----------------------------------------------
+ __#tmenu
+-----------------------------------------------*/
+#tmenu {
+	float: left;
+	width: 148px;
+	position: fixed;
+	bottom: 17px;
+	left: 25px;
+}
+#tmenu li {
+	background:#707070;
+	font-size: 12px;
+	text-align: center;
+	margin: 5px 0 0 0;
+}
+#tmenu li.google_dmca {
+	background: #707070 url(/img/google24.png) no-repeat 4px 5px;
+	text-align: left;
+}
+#tmenu li a{
+	display:block;
+	height: 24px;
+	padding: 8px 0 0 0;
+	color: #fff;
+}
+#tmenu li.google_dmca a{
+	padding: 9px 0 0 32px;
+}
+
+
+

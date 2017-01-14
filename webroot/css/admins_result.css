@@ -1,0 +1,118 @@
+@charset"utf-8";
+
+/*----------------------------------------
+ contents_block
+----------------------------------------*/
+div#contents_block{
+	padding: 50px 0 100px 0;
+	font-size: 15px;
+}
+/*----------------------------------------
+ date_form_block
+----------------------------------------*/
+div.date_form_block{
+	margin: 0 0 20px 0;
+}
+div.date_form_block select{
+	margin: 0 0 0 30px;
+	font-size: 15px;
+}
+div.date_form_block label{
+	margin: 0 20px 0 0;
+}
+/*----------------------------------------
+ div.result_table_block
+----------------------------------------*/
+div.result_table_block{
+}
+div.result_table_block table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 0 0 25px;
+}
+div.result_table_block th,td{
+	border: 1px solid #9c9c9c;
+}
+div.result_table_block th{
+	text-align: center;
+	background-color: #f5f5f5;
+}
+div.result_table_block th.c1{
+	width: 100px;
+}
+div.result_table_block th.c2{
+	width: 80px;
+}
+div.result_table_block th.c3{
+	width: 80px;
+}
+div.result_table_block th.c4{
+	width: 80px;
+}
+div.result_table_block th.c5{
+	width: 80px;
+}
+div.result_table_block th.c6{
+	width: 80px;
+}
+div.result_table_block th.c7{
+	width: 80px;
+}
+div.result_table_block th.c8{
+	width: 150px;
+}
+div.result_table_block td{
+	text-align: right;
+	padding: 2px 10px 2px 0;
+}
+div.result_table_block td a.bill{
+	text-decoration:underline;
+}
+/*----------------------------------------
+ div.bill_table_block
+----------------------------------------*/
+div.bill_table_block{
+}
+div.bill_table_block table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 0 0 25px;
+}
+div.bill_table_block th,td{
+	border: 1px solid #9c9c9c;
+}
+div.bill_table_block th{
+	text-align: center;
+	background-color: #f5f5f5;
+}
+div.bill_table_block th.c1{
+	width: 100px;
+}
+div.bill_table_block th.c2{
+	width: 80px;
+}
+div.bill_table_block th.c3{
+	width: 80px;
+}
+div.bill_table_block th.c4{
+	width: 80px;
+}
+div.bill_table_block th.c5{
+	width: 80px;
+}
+div.bill_table_block th.c6{
+	width: 80px;
+}
+div.bill_table_block th.c7{
+	width: 80px;
+}
+div.bill_table_block th.c8{
+	width: 150px;
+}
+div.result_table_block td{
+	text-align: right;
+	padding: 2px 10px 2px 0;
+}
+div.bill_table_block td a.bill{
+	text-decoration:underline;
+}

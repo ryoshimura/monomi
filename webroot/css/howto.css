@@ -1,0 +1,113 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+#main .outer {
+	margin:0 auto;
+	width: 750px;
+	padding: 0 0 70px 0;
+}
+#main .navi{
+	height: 45px;
+}
+#main .navi li{
+	float: right;
+}
+#main .navi li.right{
+	border-left: 1px solid #bdbdbd;
+}
+#main .navi li a{
+	display: block;
+	font-size: 14px;
+	padding: 5px 20px;
+	color: #444422;
+}
+#main .navi li a{
+	text-decoration:none;
+}
+
+#main .inner {
+	clear:both;
+	padding: 40px 40px 35px 40px;
+
+	background:#FFF;
+/*	border-radius: 5px;*/
+	box-shadow: 0 0 10px 10px #ECECEC;
+	behavior: url(/PIE.htc);
+}
+
+#main div.sp_s {
+	clear:both;
+	height: 30px;
+}
+#main div.sp_l {
+	clear:both;
+	height: 60px;
+}
+img.h2gif {
+	float: left;
+}
+img.title {
+	float: right;
+}
+span.red {
+	color: #C90800;
+}
+/*-----------------------------------------------
+ __intro
+-----------------------------------------------*/
+div.intro a {
+	color: #086DCB;
+	text-decoration: underline;
+}
+div.hwtitle {
+	margin: 40px 0 0 0;
+	border-bottom: 1px solid #777;
+}
+div.hwtitle h3{
+	font-size: 18px;
+	color: #777;
+}
+
+div.intro p.caption {
+	margin: 20px 0 0 0;
+}
+div.intro div.howto {
+	clear:both;
+	margin: 50px 0 30px 0;
+}
+div.intro div.howto div.post{
+	clear:both;
+}
+div.intro div.howto div.post img{
+	float: left;
+}
+div.intro div.howto div.post img.dla{
+	margin: 0 20px 0 0;
+}
+div.intro div.howto div.post p {
+	float: left;
+	margin: 0 0 0 30px;
+	padding: 3px 0 0 0;
+}
+div.intro div.howto div.hw_next {
+	clear:both;
+	background:url("../img/hwNext.png") 110px 8px no-repeat;
+	height: 40px;
+}
+div.intro div.howto div.hw_nextd {
+	clear:both;
+	background:url("../img/hwNextd.png") 0px 8px no-repeat;
+	height: 40px;
+}
+p.toplink {
+	clear:both;
+	text-align: right;
+}
+p.toplink a{
+	padding: 0 0 0 15px;
+	color: #086DCB;
+	background:url("../img/arw.gif") 0 2px no-repeat;
+}
+

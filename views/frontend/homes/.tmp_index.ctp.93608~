@@ -1,0 +1,200 @@
+<?php echo'<?xml version="1.0" encoding="windows-31j" ?>' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="description" content="<?php echo $meta['description']; ?>" />
+<meta name="keywords" content="<?php echo $meta['keywords']; ?>" />
+<?php
+	echo $html->css(array('homes_index') , null, array('inline'=>true));
+	echo $html->script(array('jquery/jquery-1.4.2.min', 'jquery/plugin/jquery.corner', 'frontend/homes'), array('inline'=>true));
+	echo $html->meta('icon', '/img/favicon.ico');
+?>
+<title><?php echo $meta['title']; ?></title>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21558748-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+<div id="header_block"></div>
+<div id="outline">
+	<div id="main_contents">
+		<p class="contents_info">新着同人を毎日お届け！　日刊速報同人 NISODO へようこそ</p>
+		<div class="page_title c_h1"><h1><?php echo $meta['h1']; ?></h1></div>
+		<div class="paginate_block">
+			<span class="paginate">
+<?php
+	// ページネーション
+	$last_page = $paginator->counter(array('format'=>'%pages%'));
+	if( $paginator->hasPrev() ){
+		echo $paginator->prev('前へ');
+	}
+	if( 6 <= $paginator->counter(array('format'=>'%page%')) ){
+		echo $paginator->first('1...');
+	}
+	echo $paginator->numbers( array('separator' => ''));
+	if( ($last_page - 5) >= $paginator->counter(array('format'=>'%page%')) ){
+		echo $paginator->last('...'. $last_page);
+	}
+	if( $paginator->hasNext() ){
+		echo $paginator->next('次へ');
+	}
+?>
+			</span>
+			<span class="info">価格は変更されている可能性があります</span>
+		</div><!-- div.paginate -->
+		<div class="border"></div>
+		<div class="works_contents">
+			<table><tbody>
+<?php
+	foreach( $works as $key=>$val ){
+		if( $key % 2 == 0 ) {	// 偶数は左側tdに配置
+			if( $key == 0 ){	// 最初の行の場合は、<tr>のみ
+				echo '<tr>';
+			} else {			// 途中行の場合は、</tr><tr>で上下をジョイント
+				echo '</tr><tr>';
+			}
+		}
+		else {					// 奇数は右側tdに配置しつつ、左右の間にスペースtdを挟む
+			echo '<td class="space"></td>';
+		}
+
+		echo $this->element( 'homes/work_td', array( 'work' => $val ) );
+	}
+?>
+			</tr>
+			</tbody></table>
+		</div>
+
+		<div class="paginate_block">
+			<span class="paginate">
+<?php
+	// ページネーション
+	$last_page = $paginator->counter(array('format'=>'%pages%'));
+	if( $paginator->hasPrev() ){
+		echo $paginator->prev('前へ');
+	}
+	if( 6 <= $paginator->counter(array('format'=>'%page%')) ){
+		echo $paginator->first('1...');
+	}
+	echo $paginator->numbers( array('separator' => ''));
+	if( ($last_page - 5) >= $paginator->counter(array('format'=>'%page%')) ){
+		echo $paginator->last('...'. $last_page);
+	}
+	if( $paginator->hasNext() ){
+		echo $paginator->next('次へ');
+	}
+?>
+			</span>
+			<span class="info">価格は変更されている可能性があります</span>
+		</div><!-- div.paginate -->
+	</div>
+	<div id="sidebar">
+		<div id="side_header"></div>
+		<div id="side_body">
+			<div class="menu_inline">
+				<div class="logo"></div>
+				<div id="menu">
+					<p class="category_title">メニュー</p>
+					<ul>
+						<li><a href="/">新着同人</a></li>
+					</ul>
+					<p class="category_title">シチュエーション</p>
+					<ul>
+						<li><a href="/genres/syokusyu/">触手</a></li>
+						<li><a href="/genres/ntr/">寝取られ（ＮＴＲ）</a></li>
+						<li><a href="/genres/rankou/">乱交/複数プレイ</a></li>
+						<li><a href="/genres/fuzoku/">風俗/売春</a></li>
+<!--						<li><a href="#">痴漢</a></li>				-->
+<!--						<li><a href="#">痴女</a></li>				-->
+<!--						<li><a href="#">ボーイズラブ</a></li>		-->
+					</ul>
+					<p class="category_title">キャラクター</p>
+					<ul>
+						<li><a href="/genres/loli/">ロリ</a></li>
+						<li><a href="/genres/oyaji/">オヤジ/キモオタ</a></li>
+						<li><a href="/genres/wife/">人妻</a></li>
+						<li><a href="/genres/ninsin/">妊娠/孕ませ</a></li>
+						<li><a href="/genres/ahe/">アヘ/アクメ顔</a></li>
+<!--						<li><a href="#">ふたなり</a></li>			-->
+<!--						<li><a href="#">巨乳</a></li>				-->
+<!--						<li><a href="#">微乳</a></li>				-->
+					</ul>
+					<p class="category_title">作品傾向</p>
+					<ul>
+						<li><a href="/genres/female/">女性視点/女主人公</a></li>
+						<li><a href="/genres/video/">動画/アニメーション</a></li>
+					</ul>
+<!--					<p class="category_title">コスチューム</p>		-->
+<!--					<ul>											-->
+<!--						<li><a href="#">白衣/看護婦</a></li>		-->
+<!--						<li><a href="#">男装</a></li>				-->
+<!--					</ul>											-->
+					<p class="category_title">元ネタ</p>
+					<ul>
+						<li><a href="/genres/kon/">けいおん！</a></li>
+<!--						<li><a href="#">コードギアス</a></li>				-->
+<!--						<li><a href="#">新世紀エヴァンゲリオン</a></li>		-->
+<!--						<li><a href="#">涼宮ハルヒの憂鬱</a></li>			-->
+<!--						<li><a href="#">ストライクウィッチーズ</a></li>		-->
+<!--						<li><a href="#">ゼロの使い魔</a></li>				-->
+<!--						<li><a href="#">とある魔術の禁書目録</a></li>		-->
+<!--						<li><a href="#">とある科学の超電磁砲</a></li>		-->
+<!--						<li><a href="#">東方Project</a></li>				-->
+<!--						<li><a href="#">ドリームクラブ</a></li>				-->
+						<li><a href="/genres/nanoha/">リリカルなのは</a></li>
+						<li><a href="/genres/onepiece/">ワンピース</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="side_footer"></div>
+		<div class="twitter_block">
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 5,
+  interval: 6000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#953735',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#005a99',
+      links: '#953735'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'all'
+  }
+}).render().setUser('NISODO').start();
+</script>
+		</div>
+	</div>
+	<div id="footer_block">
+		当サイトの連絡先：contact.caft☆gmail.com（☆を@に変更してください）　また、掲載同人の購入に関する問合せ等は、直接取り扱いサイトにお問合せください。
+	</div>
+</div>
+</body>
+</html>

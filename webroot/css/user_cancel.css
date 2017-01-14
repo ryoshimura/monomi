@@ -1,0 +1,39 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+
+#main .inner p.form{
+	margin: 0 0 20px 0;
+	padding: 0 0 0 3px;
+}
+#main .inner h2{
+	color: #7f7f7f;
+}
+
+
+/*-----------------------------------------------
+ __inner_agreement
+-----------------------------------------------*/
+.inner p{
+	font-size: 13px;
+}
+
+.inner a.cancel_btn{
+/*	float: left;*/
+	margin: 30px 0 0 0;
+	display:block;
+	width: 100px;
+	height: 30px;
+	text-indent: -9999px;
+	background:url("../img/cancel.png") 0px 0px no-repeat;
+}
+.inner a.cancel_btn:hover{ background:url("../img/cancel.png") 0px -30px no-repeat; }
+
+
+.inner a.top{
+/*	float: left;*/
+	color: #2C78BA;
+}
+

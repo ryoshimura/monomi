@@ -1,0 +1,94 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+#main .outer {
+	margin:0 auto;
+	width: 750px;
+	padding: 0 0 70px 0;
+}
+#main .navi{
+	height: 45px;
+}
+#main .navi li{
+	float: right;
+}
+#main .navi li.right{
+	border-left: 1px solid #bdbdbd;
+}
+#main .navi li a{
+	display: block;
+	font-size: 14px;
+	padding: 5px 20px;
+	color: #444422;
+}
+#main .navi li a{
+	text-decoration:none;
+}
+
+#main .inner {
+	clear:both;
+	padding: 40px 40px 35px 40px;
+
+	background:#FFF;
+/*	border-radius: 5px;*/
+	box-shadow: 0 0 10px 10px #ECECEC;
+	behavior: url(/PIE.htc);
+}
+
+#main div.sp_s {
+	clear:both;
+	height: 20px;
+}
+
+img.h2gif {
+	float: left;
+}
+img.title {
+	float: right;
+}
+
+/*-----------------------------------------------
+ __intro
+-----------------------------------------------*/
+div.intro p{
+	clear:both;
+	padding: 30px 10px 10px 90px;
+}
+div.intro a{
+	color: #086DCB;
+}
+div.intro a.top{
+	display:block;
+	padding: 0 0 0 15px;
+	color: #086DCB;
+	background:url("../img/arw.gif") 0 4px no-repeat;
+}
+/*-----------------------------------------------
+ __tokushoho.ctp
+-----------------------------------------------*/
+div.intro h3.toku {
+	float: left;
+	margin: 20px 0 0 20px;
+}
+div.intro table {
+	clear:both;
+	margin: 0 0 0 90px;
+	padding: 30px 0 0 0;
+}
+div.intro table td.caption{
+	width: 150px;
+	height: 30px;
+	clear:both;
+}
+div.intro table span{
+	float: left;
+	padding: 0 5px 0 0;
+}
+div.intro table img{
+	float: left;
+	margin: 4px 5px 0 0;
+}
+
+

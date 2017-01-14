@@ -1,0 +1,91 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+#main .inner div.space{
+	clear:both;
+	height: 80px;
+}
+#main .inner p.intro{
+	margin: 0 0 10px 0;
+}
+#main .inner p.caption{
+	margin: 0 0 30px 0;
+}
+
+#main .inner textarea{
+	border: none;
+	outline: none;
+	font-size: 13px;
+	border: solid 1px #B1B1B1;
+	padding: 5px;
+}
+div.textarea_caption{
+	padding: 0 0 0 430px;
+	color: #999;
+}
+
+#main .inner ul{
+	margin: 20px 0 0 0;
+}
+#main .inner li{
+	float: left;
+	margin: 0 40px 0 0;
+}
+#main .inner input.submit_btn{
+	width: 140px;
+	height: 40px;
+	line-height:0;
+	border: none;
+	outline: none;
+	background: none;
+	background-image: url(../img/toconf.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+#main .inner input.submit_btn:hover{
+	background:url("../img/toconf.gif") 0 -40px no-repeat;
+}
+#main .inner li a{
+	display: block;
+	width: 60px;
+	height: 40px;
+	text-indent: -9999px;
+	background:url("../img/back.gif") 0 0 no-repeat;
+}
+#main .inner li a:hover{
+	background:url("../img/back.gif") 0 -40px no-repeat;
+}
+div.feed{
+	height: 25px;
+	padding: 0 0 0 5px;
+	color: #af3f25;
+}
+
+/*-----------------------------------------------
+ iconfirm   __main
+-----------------------------------------------*/
+p.conf_intro{
+	margin: 0 0 20px 0;
+}
+#main .inner input.send_btn{
+	width: 140px;
+	height: 40px;
+	line-height:0;
+	border: none;
+	outline: none;
+	background: none;
+	background-image: url(../img/send.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+#main .inner input.send_btn:hover{
+	background:url("../img/send.gif") 0 -40px no-repeat;
+}
+
+

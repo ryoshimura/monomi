@@ -1,0 +1,279 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+
+#main .inner p.form{
+	margin: 0 0 20px 0;
+	padding: 0 0 0 3px;
+}
+#main .inner h2{
+	color: #7f7f7f;
+}
+div.clear{
+	clear:both;
+	height: 50px;
+}
+
+
+/*-----------------------------------------------
+ __div.step
+-----------------------------------------------*/
+div.step{
+	margin: 0 0 60px 0;
+	clear:both;
+}
+div.step_header {
+	height: 34px;
+}
+div.step1{ background:url("../img/step.png") 0px 0px no-repeat; }
+div.step2{ background:url("../img/step.png") 0px -34px no-repeat; }
+div.step3{ background:url("../img/step.png") 0px -68px no-repeat; }
+div.step4{ background:url("../img/step.png") 0px -102px no-repeat; }
+div.step5{ background:url("../img/step.png") 0px -136px no-repeat; }
+h2{
+	font-size: 14px;
+	padding: 9px 0 5px 80px;
+}
+div.content {
+	margin: 20px 0 0 0;
+	font-size: 13px;
+}
+div.copy {
+	width: 40px;
+	height: 24px;
+	background:url("../img/copy.png") 0px 0px no-repeat;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+div.notice{
+	border: 1px solid #C90800;
+	padding: 20px 20px;
+	margin: 0 0 40px 0;
+	font-size: 13px;
+	width: 600px;
+	color: #C90800;
+}
+span.red {
+	font-size: 16px;
+	font-weight: bold;
+	color: #C90800;
+}
+span.rd {
+	color: #C90800;
+}
+p.disclaimer {
+	font-size: 13px;
+	margin: 0 0 50px 0;
+}
+/*-----------------------------------------------
+ step1
+-----------------------------------------------*/
+p.st1p{
+	padding: 0 0 12px 80px;
+	color: #777;
+
+}
+li.st1{
+	clear:both;
+	padding: 0 0 2px 80px;
+}
+li.st1 a{
+	color: #086DCB;
+}
+/*-----------------------------------------------
+ step2
+-----------------------------------------------*/
+label.select{
+	float: left;
+	width: 80px;
+	padding: 3px 0 0 0;
+}
+#templateSelect {
+	float: left;
+	padding: 2px 0px 2px 2px;
+}
+p.step2{
+	clear:both;
+	padding: 5px 0 0 82px;
+	color: #C90800;
+}
+
+
+/*-----------------------------------------------
+ step3
+-----------------------------------------------*/
+p.step3{
+	clear:both;
+}
+label.subject{
+	float: left;
+	width: 45px;
+	padding: 3px 0 0 0;
+}
+input.subjectbox {
+	float: left;
+	width: 450px;
+	padding: 2px 2px;
+}
+textarea {
+	padding: 2px 2px;
+	margin: 10px 0 0 0;
+	width: 650px;
+	height: 401px;
+}
+div.s3copy{
+	float:left;
+	width: 40px;
+	height: 23px;
+	margin: 0 0 0 7px;
+	border: 1px solid #acacac;
+	font-size: 15px;
+	font-wight: bold;
+	text-align: center;
+	cursor: pointer;
+}
+div.s3copyTa{
+	width: 40px;
+	height: 24px;
+	margin: 5px 0 0 610px;
+	border: 1px solid #acacac;
+	font-size: 15px;
+	font-wight: bold;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+/*-----------------------------------------------
+ step4
+-----------------------------------------------*/
+p.s4{
+	clear:both;
+	padding: 7px 0 0 0;
+}
+label.s4label{
+	float: left;
+	width: 50px;
+	padding: 3px 0 0 0;
+}
+input.s4input{
+	float: left;
+	width: 350px;
+	padding: 2px;
+}
+input.chkbox{
+	float: left;
+	margin: 3px 7px 0 50px;
+}
+div.plus{
+	float:left;
+	width: 25px;
+	height: 24px;
+	margin: 0 0 0 7px;
+	background:url("../img/plus.png") 0px 0px no-repeat;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+div.minus{
+	float:left;
+	width: 25px;
+	height: 24px;
+	margin: 0 0 0 7px;
+	background:url("../img/minus.png") 0px 0px no-repeat;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+p.s4noticeForm {
+	margin: 30px 0 0 50px;
+}
+p.s4noticeFormLink {
+	margin: 3px 0 0 50px;
+}
+p.s4noticeFormLink a{
+	color: #086DCB;
+}
+p.s4notice {
+	padding: 0 0 12px 80px;
+}
+p.s4noticeHtml {
+	padding: 0 0 0 80px;
+}
+p.s4noticeHtml a{
+	color: #086DCB;
+}
+p.shareNote {
+	margin: 20px 0 0 80px;
+}
+p.shareNoteSendMail {
+	margin: 20px 0 0 50px;
+}
+
+/*-----------------------------------------------
+ step5
+-----------------------------------------------*/
+ul.ulbtn{
+	margin: 30px 0 0 80px;
+}
+ul.ulbtnStep3{
+	margin: 30px 0 0 0;
+}
+li.btn{
+	float: left;
+	margin: 0 20px 0 0;
+}
+li a.back{
+	display: block;
+	width: 60px;
+	height: 40px;
+	text-indent: -9999px;
+	background:url("../img/back.gif") 0 0 no-repeat;
+}
+li a.back:hover{
+	background:url("../img/back.gif") 0 -40px no-repeat;
+}
+#templateSendMail {
+	width: 140px;
+	height: 40px;
+	line-height:0;
+	border: none;
+	outline: none;
+	background: none;
+	background-image: url(../img/send.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+#templateSendMail:hover {
+	background:url("../img/send.gif") 0 -40px no-repeat;
+}
+#templateBodyNotice{
+	clear:both;
+	margin: 0 0 0 80px;
+	padding: 15px 0 0 0;
+}
+
+/*-----------------------------------------------
+ __sendcomp.ctp
+-----------------------------------------------*/
+p.cmpa{
+	padding: 20px 0 0 0;
+}
+p.cmpa a{
+	color: #086DCB;
+	font-size: 13px;
+}
+
+div.view_off {
+	font-size: 13px;
+	border: 1px solid #acacac;
+	width: 635px;
+	padding: 25px 10px;
+}
+div.view_off a{
+	color: #086DCB;
+}

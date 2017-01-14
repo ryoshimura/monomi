@@ -1,0 +1,26 @@
+$(document).ready(function(){
+	$('.block_header').corner("top");
+	$('.corner').corner("3px");
+
+	$('.link .delete').click(function(){
+		var url = $(this).attr('url');
+
+		$.confirm({
+			'title'		: '誤報確認',
+			'message'	: '誤報のため、この警告を削除してもよろしいですか？',
+			'buttons'	: {
+				'はい'	: {
+					'class'	: 'blue',
+					'action': function(){
+						location.href= url;
+					}
+				},
+				'いいえ'	: {
+					'class'	: 'gray',
+					'action': function(){}	// Nothing to do in this case. You can as well omit the action property.
+				}
+			}
+		});
+	});
+
+});

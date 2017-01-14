@@ -1,0 +1,161 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+a.back {
+	display: block;
+	width: 70px;
+	height: 30px;
+	text-indent: -9999px;
+	background:url("../img/back_detail.png") 0 0 no-repeat;
+	margin: 0 0 30px 0;
+}
+a.back:hover {
+	background:url("../img/back_detail.png") 0 -30px no-repeat;
+}
+
+/*-----------------------------------------------
+ __div.left
+-----------------------------------------------*/
+div.left {
+	float:left;
+	width: 300px;
+}
+
+/*-----------------------------------------------
+ __div.right
+-----------------------------------------------*/
+div.right {
+	float:left;
+	width: 400px;
+	padding: 0 0 0 20px;
+}
+div.title {
+/*	border-bottom: 1px solid #acacac; */
+	height: 47px;
+	padding: 0 100px 0 0;
+}
+div.right div.title li {
+	clear:both;
+}
+div.right div.title div.label{
+	float: left;
+	width: 80px;
+	font-size: 13px;
+	color: #999;
+}
+div.right div.title div.val{
+	float: left;
+}
+div.category {
+	margin: 20px 0 0 0;
+}
+div.category div.ulsp{
+	clear:both;
+	height: 3px;
+}
+div.category li{
+	float:left;
+	display:block;
+	width: 70px;
+	border: 1px solid #bdbdbd;
+	text-align: center;
+	padding: 3px 0;
+	margin: 0 3px 0 0;
+	font-size: 12px;
+	color: #bdbdbd;
+}
+div.category li.on{
+	border: 1px solid #2C78BA;
+	color:#fff;
+	font-weight: bold;
+	background-color: #2C78BA;
+}
+div.notice {
+	clear:both;
+	padding: 30px 0 0 0;
+	font-size: 13px;
+}
+div.notice h3{
+	margin: 0 0 5px 0;
+}
+div.notice p{
+
+}
+div.notice a{
+	color: #2C78BA;
+}
+div.notice span.bikou{
+	font-size: 12px;
+}
+
+/*-----------------------------------------------
+ __div.submission
+-----------------------------------------------*/
+div.submission {
+	clear:both;
+	padding: 50px 0 0 0;
+}
+div.submission div.textbox {
+	float:left;
+}
+div.submission div.textbox textarea {
+/*	width: 400px;
+	height: 120px; */
+	padding: 3px;
+}
+div.submission div.caption {
+	float:left;
+	margin: 0 0 0 20px;
+	font-size: 13px;
+}
+input.submit_btn{
+	margin: 20px 0 0 0;
+	width: 80px;
+	height: 28px;
+	line-height:0;
+	border: none;
+	outline: none;
+	background: none;
+	background-image: url(../img/subm.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+input.submit_btn:hover{
+	background:url("../img/subm.png") 0 -28px no-repeat;
+}
+
+/*-----------------------------------------------
+ __div.forum
+-----------------------------------------------*/
+div.forum {
+	clear:both;
+	padding: 40px 0 50px 0;
+}
+
+div.report{
+	border: 1px solid #cacaca;
+	font-size: 13px;
+	padding: 10px 5px 10px 20px;
+	margin: 0 0 15px 0;
+}
+div.report div.text {
+	float: left;
+}
+div.report div.tag {
+	float:right;
+	width: 20px;
+	height: 17px;
+}
+div.report div.tag:hover {
+	cursor:pointer;
+}
+div.report div.date {
+	clear:both;
+	text-align: right;
+}
+
+

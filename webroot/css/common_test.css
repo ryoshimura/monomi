@@ -1,0 +1,134 @@
+@charset"utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+}
+body {
+	font-size: 12px;
+	font-family: "ＭＳ Ｐゴシック", "Osaka", "Trebuchet MS", Verdana, Arial, sans-serif;
+	color: #444444;
+	line-height:1.5;
+	background-position: 0px 8px;
+	background-color: #F2F2F2;
+}
+img {
+	border: none;
+	vertical-align: bottom;
+}
+ul {
+	list-style: none;
+}
+/* safari hack */
+html:\66irst-child body {
+	font-size:10px;font-family:"Osaka" , "ＭＳ Ｐゴシック";
+}
+
+/*----------------------------------------
+
+----------------------------------------*/
+a:link {
+	color:#7F7F7F;
+	text-decoration:none;
+}
+a:visited {
+	color:#7F7F7F;
+	text-decoration:none;
+}
+a:hover {
+	color:#7F7F7F;
+	text-decoration:underline;
+}
+/*----------------------------------------
+ float:clear;
+----------------------------------------*/
+.clear {
+	margin:0;
+	padding:0;
+	float: none;
+	clear:both;
+	border:0;
+}
+/*----------------------------------------
+ header_block
+----------------------------------------*/
+#header_block {
+	width:100%;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	height:150px;
+}
+#header_block p{
+	text-align: right;
+	padding: 70px 40px 0 0;
+	font-size: 14px;
+}
+/*----------------------------------------
+ main_block
+----------------------------------------*/
+#main_block {
+	clear:both;
+	width:100%;
+	padding: 30px 0 0 0;
+}
+h1 {
+	float: left;
+	margin: 7px 0 0 400px;
+	font-size: 12px;
+	font-weight: normal;
+}
+h2 {
+	color: #9FABB2;
+	font-size: 24px;
+}
+
+
+/*----------------------------------------
+ footer_block
+----------------------------------------*/
+#footer_block {
+	clear:both;
+	width:100%;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+/*-----------------------------------------------
+ __footer
+-----------------------------------------------*/
+
+#footer {
+	clear:both;
+	width:100%;
+	min-width:500px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background:#E5E5E5;
+}
+
+#footer ul {
+	margin:15px auto 10px;
+	text-align:center;
+}
+
+#footer ul li {
+	display:inline;
+	margin-right:5px;
+	padding-left:10px;
+	line-height:1.1;
+	border-left:1px solid white;
+}
+
+#footer ul li.utilityHome {
+	border-left:0;
+}
+
+#footer p#copyright {
+	text-align:center;
+}
+
+
+
+

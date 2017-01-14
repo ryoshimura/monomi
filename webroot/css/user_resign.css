@@ -1,0 +1,83 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+
+#main .inner p.form{
+	margin: 0 0 20px 0;
+	padding: 0 0 0 3px;
+}
+#main .inner h2{
+	color: #7f7f7f;
+}
+div.space{
+	clear:both;
+	height: 80px;
+}
+
+/*-----------------------------------------------
+ __inner
+-----------------------------------------------*/
+div.inner {
+	font-size: 13px;
+}
+div.bread {
+	margin: 35px 0 0 0;
+}
+p.intro {
+	margin: 40px 0 20px 0;
+}
+p.select {
+	margin: 30px 0 0 0;
+}
+p.select select{
+	padding: 2px 0 2px 2px;
+	width: 350px;
+}
+
+p.btn {
+	margin: 50px 0 0 0;
+}
+
+div.paypal_logo {
+	float:left;
+	height: 110px;
+}
+
+p.payment_notice {
+	clear:both;
+}
+
+input.submit{
+/*	float: left;*/
+	text-indent: -9999px;
+	border: 0px;
+	width: 150px;
+	height: 36px;
+	background-image: url(../img/rg_next.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+	margin: 0 0 30px 0;
+}
+input.submit:hover{
+	background:url("../img/rg_next.gif") 0 -36px no-repeat;
+}
+
+div.processed {
+	font-weight: bold;
+	font-size: 16px;
+	background: #efefef;
+	padding: 7px 0;
+	text-align: center;
+}
+div.plan {
+	background:#eaf0f7;
+	margin: 30px 0 20px 0;
+	width: 500px;
+	padding: 10px 0 10px 10px;
+	font-size: 15px;
+	color: #1f497d;
+	font-weight: bold;
+}

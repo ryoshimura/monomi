@@ -1,0 +1,149 @@
+@charset"utf-8";
+
+/*-----------------------------------------------
+ __main
+-----------------------------------------------*/
+
+#main .inner p.form{
+	margin: 0 0 20px 0;
+	padding: 0 0 0 3px;
+}
+#main .inner h2{
+	color: #7f7f7f;
+}
+div.space{
+	clear:both;
+	height: 80px;
+}
+
+/*-----------------------------------------------
+ __inner
+-----------------------------------------------*/
+div.inner {
+	font-size: 13px;
+}
+div.bread {
+	margin: 15px 0 0 0;
+}
+p.intro {
+	margin: 40px 0 20px 0;
+}
+p.select {
+	margin: 30px 0 0 0;
+}
+p.select select{
+	padding: 2px 0 2px 2px;
+	width: 350px;
+}
+
+p.btn {
+	margin: 50px 0 0 0;
+}
+
+div.paypal_logo {
+	float:left;
+	height: 110px;
+}
+
+p.payment_notice {
+	clear:both;
+}
+div.sum {
+	float: left;
+	margin: 0 30px 0 0;
+	padding: 9px 20px 5px 10px;
+	border-bottom: 1px solid #acacac;
+}
+span#total_price {
+	font-size: 14px;
+}
+input.submit{
+	float: left;
+	text-indent: -9999px;
+	border: 0px;
+	width: 150px;
+	height: 36px;
+	background-image: url(../img/rg_next.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+	margin: 0 0 30px 0;
+}
+input.submit:hover{
+	background:url("../img/rg_next.gif") 0 -36px no-repeat;
+}
+
+div.processed {
+	font-weight: bold;
+	font-size: 16px;
+	background: #efefef;
+	padding: 7px 0;
+	text-align: center;
+}
+div.plan {
+	background:#eaf0f7;
+	margin: 30px 0 20px 0;
+	width: 500px;
+	padding: 10px 0 10px 10px;
+	font-size: 15px;
+	color: #1f497d;
+	font-weight: bold;
+}
+/*-----------------------------------------------
+ __div.select_payment
+-----------------------------------------------*/
+div.select_payment {
+	height: 290px;
+	margin: 50px 0 0 0;
+}
+div.select_payment h3{
+	margin: 0 0 10px 0;
+}
+div.select_payment div.payment_sl {
+	height: 200px;
+	background:#FFF;
+	border-radius: 7px;		/* CSS3ëêàƒ */
+	box-shadow: 0 2px 0 0 #ECECEC;
+	behavior: url(/PIE.htc);
+	cursor: pointer;
+	border: 1px solid #bdbdbd;
+}
+div.select_payment div.payment_sl:hover {
+	border: 2px solid #FF9900;
+}
+div.select_payment div.border_on {
+	border: 2px solid #FF9900;
+}
+div.select_payment div.border_off {
+	border: 1px solid #bdbdbd;
+}
+div.select_payment div.paypal {
+	float: left;
+	width: 350px;
+	margin: 0 20px 0 0;
+}
+div.select_payment div.epsilon {
+	float: left;
+	width: 380px;
+}
+div.select_payment div.payment_title {
+	border-bottom: 1px solid #bdbdbd;
+	padding: 10px 0 17px 15px;
+/*	margin: 0 7px;*/
+}
+div.logomark_p {
+	padding: 10px 0 0 0;
+}
+div.logomark_o {
+	padding: 35px 0 0 7px;
+}
+div.select_payment p.caption {
+	padding: 0 16px;
+}
+input.hiddenRadio {
+	display:none;
+}
+
+div#sign_block{
+	clear:both;
+}
